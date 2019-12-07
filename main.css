@@ -8,18 +8,7 @@ body{
   box-sizing: border-box;
 }
 
-.title{
-  width: 70%;
-  height: 600px;
-  margin: 50px auto;
-  padding-top: 75px;
-  background: #ccc;
-  text-align: center;
-  color: #FFF;
-  font-size: 3em;
-}
-
-.chart{
+.block{
   width: 70%;
   height: 600px;
   margin: 50px auto;
