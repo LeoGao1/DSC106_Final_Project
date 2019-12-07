@@ -44,7 +44,7 @@ body {
   height: 600px;
   margin: 50px auto;
   padding-top: 75px;
-  background: #FFF5E6;
+
   text-align: center;
   color: #000000;
 }
@@ -61,7 +61,7 @@ body {
   height: 250px;
   margin: 50px auto;
   padding-top: 50px;
-  background: #FFEFD6;
+
   text-align: center;
   color: #000000;
 }
@@ -70,7 +70,7 @@ body {
   height: 400px;
   margin: 50px auto;
   padding-top: 75px;
-  background: #FFEFD6;
+  
   text-align: center;
   color: #000000;
 }
