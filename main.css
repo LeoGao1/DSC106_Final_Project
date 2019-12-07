@@ -1,19 +1,31 @@
 body{
-  background-color: #ece9e6;
+  background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
   color: #333;
   font-family: "IBM Plex Serif",Georgia,'Times New Roman',Times,serif;
 }
 
+* {
+  box-sizing: border-box;
+}
 
-.chart1{
-    width: 100%;
-    float: left;
+.title{
+  width: 70%;
+  height: 600px;
+  margin: 50px auto;
+  padding-top: 75px;
+  background: #ccc;
+  text-align: center;
+  color: #FFF;
+  font-size: 3em;
 }
-.chart2{
-    width: 100%;
-    float: left;
-}
-.chart3{
-    width: 100%;
-    float: left;
+
+.chart{
+  width: 70%;
+  height: 600px;
+  margin: 50px auto;
+  padding-top: 75px;
+  background: #ccc;
+  text-align: center;
+  color: #FFF;
+  font-size: 3em;
 }
