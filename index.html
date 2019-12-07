@@ -4,6 +4,7 @@
     <!-- Internal stylesheet import -->
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- External Script -->
     <script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src = "https://code.highcharts.com/highcharts.js"></script>
@@ -26,14 +27,14 @@
   <body>
 
     <div id="container">
-      <div class="block" id="b1" data-aos="fade-in">
+      <div class="block" id="b1" data-aos="fade-in" >
         <p class="title"> </br>which make of car is the most economical? </p>
         <p class="txt"> <br/>
           The analysis of second-hand car depreciation rate</p>
         <pre class="txt">               --by Leo & Scott</pre>
       </div>
 
-      <div class="block" id="b2" data-aos="fade-in">
+      <div class="block" id="b2" data-aos="fade-in" data-aos-delay="30" data-aos-duration="2000">
         <p class="txt">  ”You don't buy a car, you just buy its usage right"  </p>
         <pre class ="txt">                    --Leo</pre>
         <pre class ="stext">
@@ -46,7 +47,7 @@ of different cars and figure out which make is the most
         <p class="txt">ECONOMICAL</p>
       </div>
 
-      <div class="block" id="b3" data-aos="fade-in">
+      <div class="block" id="b3" data-aos="fade-in" data-aos-delay="30" data-aos-duration="2000">
         <p class="txt">  Where is the idea come from? </p>
         <p class="txt"> <br/> During last spring quarter, we two and another two
         teammates,<br/> Joey, Jared, made a predictor of second-hand car.
@@ -55,7 +56,7 @@ of different cars and figure out which make is the most
         analysis is based on that data.</p>
       </div>
 
-      <div class="block" id="b4" data-aos="fade-in">
+      <div class="block" id="b4" data-aos="fade-in" data-aos-delay="30" data-aos-duration="2000">
         <p class="txt"> <br/><br/>We first count the data of each makes and sort <br/>them by
         the number of occurence. For the sake of simplicity<br/> and efficience, we
         rule out the make with occurence <br/>less than 102. Finally we got 76 car
@@ -64,15 +65,15 @@ of different cars and figure out which make is the most
 
       <div class="chart" id="c1" data-aos="fade-in"></div>
 
-      <div class="small_block" id="b5" data-aos="fade-in">
+      <div class="small_block" id="b5" data-aos="fade-in" data-aos-delay="30" data-aos-duration="2000">
         <p class="txt">After viewing data, let's start our competetition!!!</p>
       </div>
 
-      <div class="board" id="d1" data-aos="fade-in">
+      <div class="board" id="d1" data-aos="zoom-in-down" data-aos-delay="30" data-aos-duration="2000" >
         <p class="board_text">ROUND ONE</p>
       </div>
 
-      <div class="block" id="b6" data-aos="fade-in">
+      <div class="block" id="b6" data-aos="fade-in" data-aos-delay="30" data-aos-duration="2000">
           <p class="txt">We define an "depreciation rate" with both mileage and used years</p>
           <img src="https://raw.githubusercontent.com/LeoGao1/DSC106_Final_Project/master/Data/formula.png"
           alt="formula"
@@ -82,14 +83,14 @@ of different cars and figure out which make is the most
       </div>
 
 
-      <div class="chart" id="c2" data-aos="fade-in">
+      <div class="chart" id="c2" data-aos="fade-in" data-aos-delay="30" data-aos-duration="2000">
         <p class="highcharts-description">
      </p ></div>
        <button class="button" id="plain">Plain</button>
        <button class="button" id="inverted">Inverted</button>
        <button class="button" id="polar">Polar</button>
 
-       <div class="mediem_block" id="b7" data-aos="fade-in">
+       <div class="mediem_block" id="b7" data-aos="fade-in" data-aos-delay="30" data-aos-duration="2000">
            <p class="txt">Oops, acura ilx and chervolet trax seems have higher<br/>
              depreciation rate than others. But the defined<br/> "depreciation rate"
              may not credible, so it is unfair <br/>to say the two car makes are worse
@@ -97,33 +98,33 @@ of different cars and figure out which make is the most
             </p>
        </div>
 
-       <div class="board" id="d2" data-aos="fade-in">
+       <div class="board" id="d2" data-aos="zoom-in-down" data-aos-delay="30" data-aos-duration="2000" >
          <p class="board_text">ROUND TWO</p>
        </div>
 
-       <div class="small_block" id="b8" data-aos="fade-in">
+       <div class="small_block" id="b8" data-aos="fade-in" data-aos-delay="30" data-aos-duration="2000">
          <p class="txt"> Let's only consider the used years. We calculate the average
         price of each car makes in different used years</p>
         </div>
 
 
-      <div class="chart" id="c3" data-aos="fade-in">c3</div>
-      <div class="small_block" id="b9" data-aos="fade-in">
+      <div class="chart" id="c3" data-aos="fade-in" data-aos-delay="30" data-aos-duration="2000"></div>
+      <div class="small_block" id="b9" data-aos="fade-in" data-aos-delay="30" data-aos-duration="2000">
         <p class="txt">How about their depreciation rate between used years?</p>
        </div>
-      <div class="chart" id="c4" data-aos="fade-in"> </div>
+      <div class="chart" id="c4" data-aos="fade-in" data-aos-delay="30" data-aos-duration="2000"> </div>
 
-      <div class="board" id="d3" data-aos="fade-in">
+      <div class="board" id="d3" data-aos="zoom-in-down" data-aos-delay="30" data-aos-duration="2000" >
         <p class="board_text">ROUND THREE</p>
       </div>
-      <div class="small_block" id="b10" data-aos="fade-in">
+      <div class="small_block" id="b10" data-aos="fade-in" data-aos-delay="30" data-aos-duration="2000">
         <p class="txt">Let's do the same thing on different mileage!</p>
        </div>
 
-      <div class="chart" id="c5" data-aos="fade-in"> </div>
-      <div class="chart" id="c6" data-aos="fade-in"> </div>
+      <div class="chart" id="c5" data-aos="fade-in" data-aos-delay="30" data-aos-duration="2000"> </div>
+      <div class="chart" id="c6" data-aos="fade-in" data-aos-delay="30" data-aos-duration="2000"> </div>
 
-      <div class="board" id="d4" data-aos="fade-in">
+      <div class="board" id="d4" data-aos="zoom-in-down" data-aos-delay="30" data-aos-duration="2000" >
         <p class="board_text">Award Ceremony</p>
       </div>
 
@@ -166,5 +167,9 @@ of different cars and figure out which make is the most
 
     <!-- Internal JS Import -->
     <script src="main.js"></script>
+
+
   </body>
+
+
 </html>
