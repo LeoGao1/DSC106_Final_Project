@@ -1,13 +1,25 @@
 body{
   background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
   color: #333;
-  font-family: "IBM Plex Serif",Georgia,'Times New Roman',Times,serif;
 }
 
 * {
   box-sizing: border-box;
 }
+.title{
+  font-size: 45px;
+}
 
+.txt{
+  font-size: 30px;
+}
+.stext{
+  font-size: 25px;
+}
+.board_text{
+  font-size: 40px;
+  text-align: center;
+}
 .block{
   width: 70%;
   height: 600px;
@@ -16,5 +28,30 @@ body{
   background: #ccc;
   text-align: center;
   color: #FFF;
-  font-size: 3em;
+}
+.chart{
+  width: 70%;
+  height: 600px;
+  margin: 50px auto;
+  padding-top: 75px;
+  text-align: center;
+  color: #FFF;
+}
+.small_block{
+  width: 70%;
+  height: 250px;
+  margin: 50px auto;
+  padding-top: 75px;
+  background: #ccc;
+  text-align: center;
+  color: #FFF;
+}
+.board{
+  width: 40%;
+  height: 290px;
+  margin: 50px auto;
+  padding-top: 75px;
+  background: #ccc;
+  text-align: center;
+  color: #FFF;
 }
