@@ -41,6 +41,15 @@ body{
   width: 70%;
   height: 250px;
   margin: 50px auto;
+  padding-top: 50px;
+  background: #ccc;
+  text-align: center;
+  color: #FFF;
+}
+.mediem_block{
+  width: 70%;
+  height: 400px;
+  margin: 50px auto;
   padding-top: 75px;
   background: #ccc;
   text-align: center;
@@ -54,4 +63,29 @@ body{
   background: #ccc;
   text-align: center;
   color: #FFF;
+}
+.button{
+  align :center;
+  text-align: center;
+}
+
+.prize_name{
+  width: 80%;
+  height: 150px;
+  margin: 100px auto;
+  padding-top: 23px;
+  background: #ccc;
+  text-align: center;
+  color: #FFF;
+}
+
+.prize_content{
+  width: 40%;
+  height: 200px;
+  margin: 200px auto;
+  padding-top: 40px;
+  background: #ccc;
+  text-align: center;
+  color: #FFF;
+
 }
